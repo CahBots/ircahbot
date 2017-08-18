@@ -1,5 +1,39 @@
 require 'cinch'
 
+class JoinChannel
+  include Cinch::Plugin
+
+  match /join (.+)/, method: :join
+
+  def join(m, join)
+    if m.user.host == "king-of.meme"
+      if m.user.name == "Cah"
+        Channel(join).join
+        m.reply "Joined the channel successfully!"
+      else
+        m.reply "You are not permitted to do this action!"
+      end
+    end
+  end
+end
+
+class PartChannel
+  include Cinch::Plugin
+
+  match /part (.+)/, method: :part
+
+  def part(m, part)
+    if m.user.host == "king-of.meme"
+      if m.user.name == "Cah"
+        Channel(part).part
+        m.reply "Left the channel successfully!"
+      else
+        m.reply "You are not permitted to do this action!"
+      end
+    end
+  end
+end
+
 bot = Cinch::Bot.new do
   configure do |c|
     c.server = "irc.cahbot.pro"
@@ -7,6 +41,7 @@ bot = Cinch::Bot.new do
     c.nick = "IRCahBot"
     c.user = "IRCahBot"
     c.realname = "IRCahBot"
+    c.plugins.plugins = [JoinChannel, PartChannel]
   end
 
   on :message, "^restart" do |m|
