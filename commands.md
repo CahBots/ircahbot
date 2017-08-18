@@ -2,7 +2,15 @@
 
 Please be aware that this is not nearly done yet! It's in p r o g r e s s.
 
-## The Commands
+## Cah-only Commands
+Command | Description
+--------|--------
+`^join` | Makes the bot join a channel
+`^part` | the opposite of join
+`^eval` | does what you'd expect
+`^restart` | what do you think it does?
+
+## Normal Commands
 
 Command | Description
 --------|--------
