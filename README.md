@@ -13,3 +13,5 @@ or join with these useful links:
 ## Join with Webchat via KiwiIRC
 
 [![Visit our IRC channel](https://kiwiirc.com/buttons/irc.cahbot.pro/general.png)](https://kiwiirc.com/client/irc.cahbot.pro/#general)
+
+[Other CahBots](http://cahbot.pro)
