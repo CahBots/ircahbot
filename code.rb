@@ -19,7 +19,7 @@ bot = Cinch::Bot.new do
 
   on :message, /^!eval (.+)/ do |m, query|
     if m.user.host == "king-of.meme"
-      if m.user.name
+      if m.user.name == "Cah"
         m.reply "#{eval(query)}"
       else
         m.reply "You aren't the king of meme!"
