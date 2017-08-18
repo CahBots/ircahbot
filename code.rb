@@ -5,6 +5,8 @@ bot = Cinch::Bot.new do
     c.server = "irc.cahbot.pro"
     c.channels = ["#general", "#cah"]
     c.nick = "IRCahBot"
+    c.user = "IRCahBot"
+    c.realname = "IRCahBot"
   end
 
   on :message, "^help" do |m|
@@ -13,6 +15,14 @@ bot = Cinch::Bot.new do
   
   on :message, "^ping" do |m|
     m.reply "Pong! That took #{((Time.now - m.time) * 1000).to_i}ms"
+  end
+
+  on :message, /^!eval (.+)/ do |m, query|
+    if m.user.host == "king-of.meme"
+      m.reply "#{eval(query)}"
+    else
+      m.reply "You aren't the king of meme,"
+    end
   end
 end
 
