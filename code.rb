@@ -17,10 +17,14 @@ bot = Cinch::Bot.new do
     m.reply "Pong! That took #{((Time.now - m.time) * 1000).to_i}ms"
   end
 
-  on :message, /^!eval (.+)/ do |m, query|
+  on :message, /^\^eval (.+)/ do |m, query|
     if m.user.host == "king-of.meme"
       if m.user.name == "Cah"
-        m.reply "#{eval(query)}"
+        begin
+          m.reply "#{eval(query)}"
+        rescue => e
+          m.reply "#{e}"
+        end
       else
         m.reply "You aren't the king of meme!"
       end
