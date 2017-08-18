@@ -8,3 +8,5 @@ Command | Description
 --------|--------
 `^ping` | Makes sure the bot is even alive.
 `^help` | tells you there is a ping command
+
+[< go back to the almighty homepage](https://cahbots.github.io/ircahbot/)
