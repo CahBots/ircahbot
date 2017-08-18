@@ -42,6 +42,7 @@ bot = Cinch::Bot.new do
     c.user = "IRCahBot"
     c.realname = "IRCahBot"
     c.plugins.plugins = [JoinChannel, PartChannel]
+    c.plugins.prefix = /^\^/
   end
 
   on :message, "^restart" do |m|
