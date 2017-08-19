@@ -2,5 +2,4 @@ theme: jekyll-theme-midnight
 
 title: IRCahBot
 description: Y'know that Discord bot we made? Well now, here's the IRC version if you hate Discord
-author: The CB Team
-authorurl: https://github.com/orgs/CahBots/teams/cb-team/members
+show-downloads: false
