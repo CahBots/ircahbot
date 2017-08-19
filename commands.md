@@ -3,6 +3,7 @@
 Please be aware that this is not nearly done yet! It's in p r o g r e s s.
 
 ## Cah-only Commands
+
 Command | Description
 --------|--------
 `^join` | Makes the bot join a channel
