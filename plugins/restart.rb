@@ -13,6 +13,7 @@ class Restart
       else
         m.reply 'Sorry, only Cah can update me'
       end
+      m.reply 'Sorry, only Cah can update me'
     end
   end
 end
