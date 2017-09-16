@@ -3,7 +3,7 @@ class Eval
 
   match /eval (.+)/, method: :eval
 
-  def eval(m)
+  def eval(m, query)
     if m.user.host == "king-of.meme"
       if m.user.name == "Cah"
         begin
