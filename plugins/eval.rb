@@ -1,4 +1,4 @@
-class Restart
+class Eval
   include Cinch::Plugin
 
   match /\^eval (.+)/, method: :eval
