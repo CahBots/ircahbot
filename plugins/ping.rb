@@ -3,7 +3,7 @@ class Ping
 
   match /ping/, method: :ping
 
-  def restart(m)
+  def ping(m)
     m.reply "Pong! That took #{((Time.now - m.time) * 1000).to_i}ms"
   end
 end
