@@ -1,7 +1,7 @@
 class Eval
   include Cinch::Plugin
 
-  match /\^eval (.+)/, method: :eval
+  match /eval (.+)/, method: :eval
 
   def eval(m)
     if m.user.host == "king-of.meme"
