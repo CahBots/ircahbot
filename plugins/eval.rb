@@ -9,7 +9,7 @@ class Eval
         begin
           m.reply (eval code)
         rescue => e
-          m.reply "An error occured. THE ERROR: ```#{e}```"
+          m.reply "Oh snap tappity, something bad happened; ```#{e}```"
         end
       else
         m.reply "You aren't the king of meme!"
