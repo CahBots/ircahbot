@@ -1,15 +1,15 @@
 class Eval
   include Cinch::Plugin
 
-  match /eval (.+)/, method: :eval
+  match /eval (.+)/, method: :execute
 
-  def eval(m)
+  def execute(m, code)
     if m.user.host == "king-of.meme"
       if m.user.name == "Cah"
         begin
-          m.reply "#{eval m.message[5..-1]}"
+          m.reply (eval code)
         rescue => e
-          m.reply "#{e}"
+          m.reply "An error occured. THE ERROR: ```#{e}```"
         end
       else
         m.reply "You aren't the king of meme!"
