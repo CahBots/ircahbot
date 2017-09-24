@@ -7,7 +7,7 @@ class Eval
     if m.user.host == "king-of.meme"
       if m.user.name == "Cah"
         begin
-          m.reply "#{eval(query)}"
+          m.reply "#{eval query}"
         rescue => e
           m.reply "#{e}"
         end
