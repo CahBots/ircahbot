@@ -3,11 +3,11 @@ class Eval
 
   match /eval (.+)/, method: :eval
 
-  def eval(m, query)
+  def eval(m)
     if m.user.host == "king-of.meme"
       if m.user.name == "Cah"
         begin
-          m.reply "#{eval query}"
+          m.reply "#{eval m[4..-1]}"
         rescue => e
           m.reply "#{e}"
         end
