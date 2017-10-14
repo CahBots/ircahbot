@@ -15,6 +15,6 @@ bot = Cinch::Bot.new do
   end
 end
 
-User('NickServ').send("identify #{configatron.nspass}")
+Cinch::UserList.find_ensured("NickServ").send("identify #{configatron.nspass}")
 
 bot.start
