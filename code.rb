@@ -15,7 +15,6 @@ bot = Cinch::Bot.new do
   end
 end
 
-listen_to: :connect
 User('NickServ').send("identify #{configatron.nspass}")
 
 bot.start
