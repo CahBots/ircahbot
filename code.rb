@@ -10,11 +10,9 @@ bot = Cinch::Bot.new do
     c.nick = configatron.nick
     c.user = configatron.user
     c.realname = configatron.realname
-    c.plugins.plugins = [JoinChannel, PartChannel, Eval, Help, Ping, Restart]
+    c.plugins.plugins = [NS, JoinChannel, PartChannel, Eval, Help, Ping, Restart]
     c.plugins.prefix = /^\^/
   end
 end
-
-Cinch::UserList.find_ensured("NickServ").send("identify #{configatron.nspass}")
 
 bot.start
