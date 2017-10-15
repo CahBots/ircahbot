@@ -1,5 +1,6 @@
 require 'cinch'
 require 'configatron'
+require_relative 'config.rb'
 
 Dir["#{File.dirname(__FILE__)}/plugins/*.rb"].each { |file| require file }
 
