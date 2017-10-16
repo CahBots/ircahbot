@@ -4,10 +4,10 @@ class Eval
   match /eval (.+)/, method: :execute
 
   def execute(m, code)
-    if m.user.host == "king-of.meme"
-      if m.user.name == "Cah"
+    if m.user.host == 'king-of.meme'
+      if m.user.name == 'Cah'
         begin
-          m.reply (eval code)
+          m.reply eval code
         rescue => e
           m.reply "Oh snap tappity, something bad happened; ```#{e}```"
         end
