@@ -11,3 +11,4 @@ class RQuote
     m.reply "From: #{jparse.fetch('author')}"
   end
 end
+
