@@ -2,7 +2,8 @@ language: ruby
 rvm:
 - 2.4.2
 script:
-- bundle exec rubocop
+- rubocop
+install: gem install rubocop
 notifications:
   irc: 
     channels: "irc.cahbot.pro#IRCahBot"
