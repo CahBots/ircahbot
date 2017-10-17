@@ -1,4 +1,4 @@
-# IRCahBot
+# IRCahBot ![](https://travis-ci.org/CahBots/ircahbot.svg?branch=master)
 
 Y'know that Discord bot I made a while back? Well now, here's the IRC version if you hate Discord
 
