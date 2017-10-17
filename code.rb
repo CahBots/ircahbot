@@ -1,4 +1,6 @@
 require 'cinch'
+require 'rest-client'
+require 'json'
 require 'configatron'
 require_relative 'config.rb'
 
@@ -11,7 +13,7 @@ bot = Cinch::Bot.new do
     c.nick = configatron.nick.to_s
     c.user = configatron.user.to_s
     c.realname = configatron.realname.to_s
-    c.plugins.plugins = [NS, JoinChannel, PartChannel, Eval, Help, Ping, Restart, Reverse]
+    c.plugins.plugins = [NS, JoinChannel, PartChannel, Eval, Help, Ping, Restart, Reverse, RQuote]
     c.plugins.prefix = /^\^/
   end
 end

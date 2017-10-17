@@ -1,6 +1,9 @@
 echo "Pulling that stable code"
 git pull origin master
 
+echo "Updating dependencies"
+bundle update
+
 echo "Booting up the bot"
-ruby code.rb
+bundle exec ruby code.rb
 
