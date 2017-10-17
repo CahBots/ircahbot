@@ -11,7 +11,7 @@ bot = Cinch::Bot.new do
     c.nick = configatron.nick.to_s
     c.user = configatron.user.to_s
     c.realname = configatron.realname.to_s
-    c.plugins.plugins = [NS, JoinChannel, PartChannel, Eval, Help, Ping, Restart]
+    c.plugins.plugins = [NS, JoinChannel, PartChannel, Eval, Help, Ping, Restart, Reverse]
     c.plugins.prefix = /^\^/
   end
 end
