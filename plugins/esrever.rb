@@ -1,4 +1,4 @@
-Class Reverse
+class Reverse
   include Cinch::Plugin
 
   match /reverse(.+)/, method: :execute
