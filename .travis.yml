@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.4.1
+script:
+- rubocop
+install: gem install rubocop
+notifications:
+  irc: 
+    channels: "irc.cahbot.pro#IRCahBot"
+    template:
+      - "%{repository} : Build #%{build_number} (%{branch} 
+      - %{commit} : %{author}): \u00036%{message}\u0003"
+      - "\u00032View the changes\u0003 : %{compare_url}"
+      - "\u00032View the build\u0003 : %{build_url}"
+      - "This build took \u000310%{elapsed_time}\u0003 to do"
