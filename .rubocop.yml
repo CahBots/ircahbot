@@ -27,3 +27,6 @@ Lint/RescueWithoutErrorClass:
 
 Lint/UriEscapeUnescape:
   Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
