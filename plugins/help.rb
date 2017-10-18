@@ -4,6 +4,11 @@ class Help
   match /help/, method: :help
 
   def help(m)
-    m.reply "Hey #{m.user.nick}, this is IRCahBot, the IRC version of a bot that was originally for Discord. Currently the only commands are the one you just used and ^ping"
+    m.reply "Hey #{m.user.nick}, this is IRCahBot, the IRC version of a bot that was originally for Discord. Currently the only commands are:"
+    m.reply '^ping: I mean what do you expect?'
+    m.reply '^help: I mean, what did you just do?'
+    m.reply '^rquote: Pulls up a random "famous" quote.'
+    m.reply '^eval <thing>: Cah-exclusive, does what you\'d expect an eval to do.'
+    m.reply '^reverse <gniht>: .ffuts sesrever'
   end
 end
