@@ -1,6 +1,6 @@
 # Command List
 
-Please be aware that this is not nearly done yet! It's in p r o g r e s s.
+Please be aware that this bot is not nearly done yet! It's in p r o g r e s s.
 
 ## Cah-only Commands
 
@@ -16,6 +16,8 @@ Command | Description
 Command | Description
 --------|--------
 `^ping` | Makes sure the bot is even alive.
-`^help` | tells you there is a ping command
+`^help` | ~~tells you there is a ping command~~ gives the command list
+`^reverse` | .hud .ffuts sesrever
+`^rquote` | Pulls up a random "famous" (or maybe not famous) quote.
 
-[< go back to the almighty homepage](https://cahbots.github.io/ircahbot/)
+[< go back to the almighty homepage](/)
