@@ -4,7 +4,7 @@ Y'know that Discord bot I made a while back? Well now, here's the IRC version if
 
 [Command List](https://ir.cahbot.pro/commands)
 
-Want to join the network? Just join irc.cahbot.pro on port 6667 with your favorite IRC client!
+Want to join the network? Just join irc.cahbot.pro on port 6667 (or 6697 if you like SSL) with your favorite IRC client!
 
 or join with these useful links:
 
