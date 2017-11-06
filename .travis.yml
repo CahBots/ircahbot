@@ -13,3 +13,4 @@ notifications:
       - "\u00032View the changes\u0003 : %{compare_url}"
       - "\u00032View the build\u0003 : %{build_url}"
       - "This build took \u000310%{elapsed_time}\u0003 to do"
+      skip_join: true
