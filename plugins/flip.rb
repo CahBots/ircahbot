@@ -4,6 +4,6 @@ class Flip
   match /flip/, method: :flip
 
   def flip(m)
-    m.reply ['woahdude, you got **Heads**', 'woahdude, you got **Tails**', 'You got **heads**', 'You got **tails**'].sample
+    m.reply ['woahdude, you got 'Format(:bold, 'Heads'), 'woahdude, you got 'Format(:bold, 'Tails'), 'You got 'Format(:bold, 'heads'), 'You got 'Format(:bold, 'tails')].sample
   end
 end
