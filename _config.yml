@@ -1,0 +1,13 @@
+---
+# Title The Pages
+title:       IRCahBot
+# The name of the repository
+repotitle:   ircahbot
+# Description
+description: You know that bot? Yeah. that one.
+# Author
+author:      The CB Team
+# Author URL
+authorurl:   http://github.com/Cahbots
+# URL to the page. Usually https://orgname.github.io (put whatever's in the CNAME otherwise)
+url:         https://ir.cahbot.pro
