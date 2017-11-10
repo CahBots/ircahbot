@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Command List
 
 Please be aware that this bot is not nearly done yet! It's in p r o g r e s s.
