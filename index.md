@@ -1,5 +1,6 @@
 ---
 layout: default
+title: IRCahBot - Home
 ---
 
 [![Build Status](https://travis-ci.org/CahBots/ircahbot.svg?branch=master)](https://travis-ci.org/CahBots/ircahbot)
