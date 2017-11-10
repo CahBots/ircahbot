@@ -22,5 +22,7 @@ Command | Description
 `^help` | ~~tells you there is a ping command~~ gives the command list
 `^reverse` | .hud .ffuts sesrever
 `^rquote` | Pulls up a random "famous" (or maybe not famous) quote.
+`^flip` | Flips a coin, what else did you expect?.
+`^flop` | Flops a coin, what expect did you else?
 
 [< go back to the almighty homepage](/)
