@@ -4,16 +4,6 @@ Y'know that Discord bot I made a while back? Well now, here's the IRC version if
 
 [Command List](https://ir.cahbot.pro/commands)
 
-Want to join the network? Just join irc.cahbot.pro on port 6667 (or 6697 if you like SSL) with your favorite IRC client!
+Want to join the network? Just join irc.cahbot.pro on port 6667 (or 6697 if you like SSL) with your favorite IRC client! [![](https://img.shields.io/badge/IRC-irc.cahbot.pro%20%23ircahbot-1e72ff.svg)](https://www.irccloud.com/invite?channel=%23ircahbot&amp;hostname=irc.cahbot.pro&amp;port=6697&amp;ssl=1)
 
-or join with these useful links:
-
-## Join with IRCCloud
-
-[![](https://img.shields.io/badge/IRC-%23general-1e72ff.svg?style=flat)](https://www.irccloud.com/invite?channel=%23general&hostname=irc.cahbot.pro&port=6667)
-
-## Join with Webchat via KiwiIRC
-
-[![Visit our IRC channel](https://kiwiirc.com/buttons/irc.cahbot.pro/general.png)](https://kiwiirc.com/client/irc.cahbot.pro/#general)
-
-[Other CahBots](http://cahbot.pro)
+[Other CahBots](https://cahbot.pro)

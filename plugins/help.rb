@@ -10,5 +10,7 @@ class Help
     m.reply '^rquote: Pulls up a random "famous" quote.'
     m.reply '^eval <thing>: Cah-exclusive, does what you\'d expect an eval to do.'
     m.reply '^reverse <gniht>: .ffuts sesrever'
+    m.reply '^flip: Flips a coin, what else did you expect?'
+    m.reply '^flop: Flops a coin, what expect did you else?'
   end
 end
